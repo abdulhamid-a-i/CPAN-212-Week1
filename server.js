@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     res.end('Hello, World! This is my first Node.js App!! \n'); // End of response
 
 
-})
+});
 
 //Assigning server listening port
 

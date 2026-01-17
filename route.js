@@ -13,7 +13,7 @@ const server = http.createServer((req,res) =>{
 
     res.writeHead(404,{'content-type':'text/plain'});
     return res.end('404 - Page not Found');
-})
+});
 
 const PORT = 3000;
 
